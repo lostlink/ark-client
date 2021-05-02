@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Client\API;
+namespace Lostlink\Ark\Client\API;
 
-use ArkEcosystem\Client\Connection;
-use ArkEcosystem\Client\Contracts\API;
-use ArkEcosystem\Client\Http\Request;
+use Lostlink\Ark\Client\Connection;
+use Lostlink\Ark\Client\Contracts\API;
+use Lostlink\Ark\Client\Http\Request;
 use GuzzleHttp\Client;
 use Illuminate\Support\Arr;
 
@@ -29,14 +29,14 @@ abstract class AbstractAPI
     /**
      * The client connection.
      *
-     * @var \ArkEcosystem\Client\Connection
+     * @var \Lostlink\Ark\Client\Connection
      */
     public $connection;
 
     /**
      * Create a new API class instance.
      *
-     * @param \ArkEcosystem\Client\Connection $connection
+     * @param \Lostlink\Ark\Client\Connection $connection
      */
     public function __construct(Connection $connection)
     {

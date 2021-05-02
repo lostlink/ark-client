@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Client;
 
-use ArkEcosystem\Client\Connection;
+use Lostlink\Ark\Client\Connection;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Request;

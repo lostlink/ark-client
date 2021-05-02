@@ -19,7 +19,7 @@ use ArkEcosystem\Tests\Client\TestCase;
  * This is the node resource test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Client\API\Node
+ * @covers \Lostlink\Ark\Client\API\Node
  */
 class NodeTest extends TestCase
 {

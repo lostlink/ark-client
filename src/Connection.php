@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Client;
+namespace Lostlink\Ark\Client;
 
 use BadMethodCallException;
 use GuzzleHttp\Client;
@@ -77,7 +77,7 @@ class Connection
      *
      * @param string $name
      *
-     * @return \ArkEcosystem\Client\API\AbstractAPI
+     * @return \Lostlink\Ark\Client\API\AbstractAPI
      */
     public function api(string $name): API\AbstractAPI
     {

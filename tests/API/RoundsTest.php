@@ -19,7 +19,7 @@ use ArkEcosystem\Tests\Client\TestCase;
  * This is the rounds resource test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Client\API\Rounds
+ * @covers \Lostlink\Ark\Client\API\Rounds
  */
 class RoundsTest extends TestCase
 {

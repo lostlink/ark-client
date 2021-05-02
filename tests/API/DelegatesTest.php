@@ -19,7 +19,7 @@ use ArkEcosystem\Tests\Client\TestCase;
  * This is the delegates resource test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Client\API\Delegates
+ * @covers \Lostlink\Ark\Client\API\Delegates
  */
 class DelegatesTest extends TestCase
 {

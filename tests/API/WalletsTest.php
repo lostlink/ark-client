@@ -19,7 +19,7 @@ use ArkEcosystem\Tests\Client\TestCase;
  * This is the wallets resource test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Client\API\Wallets
+ * @covers \Lostlink\Ark\Client\API\Wallets
  */
 class WalletsTest extends TestCase
 {
@@ -92,6 +92,6 @@ class WalletsTest extends TestCase
      */
     protected function getApiClass()
     {
-        return \ArkEcosystem\Client\API\Wallets::class;
+        return \Lostlink\Ark\Client\API\Wallets::class;
     }
 }

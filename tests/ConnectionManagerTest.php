@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Client;
 
-use ArkEcosystem\Client\Connection;
-use ArkEcosystem\Client\ConnectionManager;
+use Lostlink\Ark\Client\Connection;
+use Lostlink\Ark\Client\ConnectionManager;
 
 /**
  * This is the connection manager test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Client\ConnectionManager
+ * @covers \Lostlink\Ark\Client\ConnectionManager
  */
 class ConnectionManagerTest extends TestCase
 {

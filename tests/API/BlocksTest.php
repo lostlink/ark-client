@@ -19,7 +19,7 @@ use ArkEcosystem\Tests\Client\TestCase;
  * This is the blocks resource test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Client\API\Blocks
+ * @covers \Lostlink\Ark\Client\API\Blocks
  */
 class BlocksTest extends TestCase
 {

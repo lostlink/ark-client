@@ -19,7 +19,7 @@ use ArkEcosystem\Tests\Client\TestCase;
  * This is the locks resource test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Client\API\Locks
+ * @covers \Lostlink\Ark\Client\API\Locks
  */
 class LocksTest extends TestCase
 {

@@ -19,7 +19,7 @@ use ArkEcosystem\Tests\Client\TestCase;
  * This is the transactions resource test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Client\API\Transactions
+ * @covers \Lostlink\Ark\Client\API\Transactions
  */
 class TransactionsTest extends TestCase
 {

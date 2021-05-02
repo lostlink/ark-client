@@ -19,7 +19,7 @@ use ArkEcosystem\Tests\Client\TestCase;
  * This is the votes resource test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Client\API\Votes
+ * @covers \Lostlink\Ark\Client\API\Votes
  */
 class VotesTest extends TestCase
 {
@@ -44,6 +44,6 @@ class VotesTest extends TestCase
      */
     protected function getApiClass()
     {
-        return \ArkEcosystem\Client\API\Votes::class;
+        return \Lostlink\Ark\Client\API\Votes::class;
     }
 }
