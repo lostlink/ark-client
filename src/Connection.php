@@ -82,7 +82,7 @@ class Connection
     public function api(string $name): API\AbstractAPI
     {
         $name  = ucfirst($name);
-        $class = "ArkEcosystem\\Client\\API\\{$name}";
+        $class = "Lostlink\\Ark\\Client\\API\\{$name}";
 
         if (! class_exists($class)) {
             throw new RuntimeException("Class [$class] does not exist.");
