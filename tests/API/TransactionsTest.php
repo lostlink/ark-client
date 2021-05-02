@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Client\API;
+namespace Lostlink\Ark\Tests\Client\API;
 
-use ArkEcosystem\Tests\Client\TestCase;
+use Lostlink\Ark\Tests\Client\TestCase;
 
 /**
  * This is the transactions resource test class.

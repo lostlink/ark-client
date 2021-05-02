@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Client;
+namespace Lostlink\Ark\Tests\Client;
 
 use Lostlink\Ark\Client\Connection;
 use GuzzleHttp\Handler\MockHandler;
